@@ -144,7 +144,37 @@ img {
     }
  }
 
- 
+ @media screen and (max-width:480px) {
+    .container{
+      width: 98%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lessons .col{
+        width: 98%;
+        margin-top: 60px;
+    }
+
+    .steps .col{
+        width: 98%;
+        margin-top: 60px;
+    }
+
+    .container .col.col-left{
+        width: 98%;
+    }
+
+    .container .col.col-right{
+        width: 98%;
+    }
+
+ }
+
+
  
 
 
