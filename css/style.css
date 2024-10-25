@@ -128,19 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (min-width:1400px) {
-    .site-header{
-        display: flex;
-        justify-content: center;
-    }
-
+ @media screen and (max-width:1400px) {
+  
     .container{
-      max-width: 1400px;
+      max-width: 1140px;
       margin: 0 auto;
     }
 
     .row{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
